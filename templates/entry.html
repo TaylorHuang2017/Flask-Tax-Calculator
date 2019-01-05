@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/cal'>
+<table>
+<p>请提供以下信息:</p>
+<tr><td>税前月收入:</td><td><input name='income' type='TEXT' width='60'></td></tr>
+<tr><td>四险一金:</td><td><input name='insurance' type='TEXT' width='60'></td></tr>
+<tr><td>专项附加扣除:</td><td><input name='exemption' type='TEXT' width='60'></td></tr>
+</table>
+<p>点击按钮开始计算:</p>
+<p><input value='提交' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

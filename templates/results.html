@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>你所提交的数据是:</p>
+<table>
+<tr><td>税前月收入:</td><td>{{ the_income }}</td></tr>
+<tr><td>四险一金:</td><td>{{ the_insurance }}</td></tr>
+<tr><td>专项附加扣除:</td><td>{{ the_exemption }}</td></tr>
+</table>
+
+<p>依照最新税率, 应纳税:</p>
+<h3>{{ the_tax }}</h3>
+<p>税后收入:</p>
+<h3>{{ the_aftertax_income }}</h3>
+
+{% endblock %}
