@@ -37,4 +37,4 @@ def entry_page() -> 'html':
                             the_title='最新免费个税计算器')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
