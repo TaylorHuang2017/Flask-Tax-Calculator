@@ -1,6 +1,6 @@
 # Flask-Tax-Calculator
 
-基于Flask的简易在线个税计算器，支持2018年最新税率，以及2019年专项附加扣除。
+基于Flask的简易在线个税计算器，支持2018年最新起征点（5000）和调整后税率，以及2019年专项附加扣除。
 
 https://huangtairanpython.azurewebsites.net 
 
